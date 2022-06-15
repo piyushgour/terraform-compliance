@@ -13,8 +13,9 @@
     - You can use your key pair or Delete "aws_key_pair" resource and update key_pair name in ec2.tf (line no. 16).
 
   ## Terraform Command 
-    - terraform plan
-    - terraform apply
+    - terraform plan -out=plan.out
+    - terraform-compliance -p plan.out -f terraform-compliance
+    - terraform apply plan.out
     
     For Clean-up infra.
     - terraform destroy 
