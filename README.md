@@ -19,3 +19,7 @@
     
     For Clean-up infra.
     - terraform destroy 
+
+  ## How to add AWS resource list if Missing 
+    - Linux/unix path -> /usr/local/lib/python<version>/dist-packages/terraform_compliance/steps/__init__.py
+    - Windows path -> C:\Users\Username\AppData\Local\Programs\Python\Python38\Lib\site-packages\terraform_compliance\steps\__init__.py
